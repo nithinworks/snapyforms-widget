@@ -10,6 +10,7 @@ export default defineConfig({
       fileName: (format) => `widget${format === 'umd' ? '.min' : ''}.js`
     },
     minify: true,
+    cssCodeSplit: true,
     rollupOptions: {
       output: {
         assetFileNames: 'widget.[ext]'
