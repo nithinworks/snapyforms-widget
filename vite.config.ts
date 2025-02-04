@@ -6,9 +6,10 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/widget.ts'),
       name: 'SnapyForms',
-      fileName: 'widget',
-      formats: ['es', 'umd']
+      formats: ['umd'],
+      fileName: (format) => `widget${format === 'umd' ? '.min' : ''}.js`
     },
+    minify: true,
     rollupOptions: {
       output: {
         assetFileNames: 'widget.[ext]'
