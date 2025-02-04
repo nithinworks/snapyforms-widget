@@ -1,0 +1,41 @@
+{
+  "name": "snapyforms-widget",
+  "version": "1.0.0",
+  "description": "Embeddable form widget for SnapyForms",
+  "main": "dist/widget.js",
+  "types": "dist/widget.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "forms",
+    "widget",
+    "embed",
+    "chat"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.17.17",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.14"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nithinworks/snapyforms-widget.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nithinworks/snapyforms-widget/issues"
+  },
+  "homepage": "https://github.com/nithinworks/snapyforms-widget#readme"
+}

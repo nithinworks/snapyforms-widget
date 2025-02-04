@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapyForms Widget Example</title>
+</head>
+<body>
+    <h1>SnapyForms Widget Demo</h1>
+    
+    <!-- For development -->
+    <script src="../dist/widget.js"></script>
+    
+    <!-- For production (after publishing) -->
+    <!-- <script src="https://cdn.jsdelivr.net/gh/your-username/snapyforms-widget@1.0.0/dist/widget.min.js"></script> -->
+    
+    <script>
+        new SnapyForms({
+            formId: 'your-form-id',
+            apiKey: 'your-supabase-anon-key'
+        });
+    </script>
+</body>
+</html>
